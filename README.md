@@ -1,25 +1,18 @@
 # 🌍 Global LNG Production & Contract Modelling System  - A Python Case Study
-*A Domain-Driven Python Architecture Case Study*
 
-> ⚠️ Note: This repository shares architecture, design decisions, and engineering learnings.  
-> Source code is not included due to commercial confidentiality.
-
----
+> ⚠️ This repository shares my learnings in building and designing software architecture.  
 
 ## 📌 Overview
 
 This project documents the architecture and design of a Python-based modelling system built to represent global LNG production and long-term contract flows at:
 
-- Region level  
-- Country level  
+- Region/country level   
 - Liquefaction plant & train level  
-- Project ownership level  
-- Term contract level  
-- Portfolio aggregation level  
+- Project ownership level    
+- Aggregated level  
 
 The system was designed to support forward-looking commercial analysis, supply forecasting, and scenario modelling.
 
-Rather than functioning as a flat spreadsheet-style model, the system was architected using **object-oriented and domain-driven design principles** to reflect real-world industry structure.
 
 ---
 
@@ -33,12 +26,6 @@ Commercial LNG analysis typically requires modelling:
 - Regional and country-level aggregation  
 - Portfolio-level exposure analysis  
 
-Traditional spreadsheet models become:
-
-- Difficult to maintain  
-- Hard to extend  
-- Error-prone at scale  
-- Rigid for scenario analysis  
 
 This project aimed to design a **scalable, extensible modelling engine in Python** that mirrors how LNG markets operate structurally.
 
