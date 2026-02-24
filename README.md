@@ -10,7 +10,6 @@ This repository shares my learnings in building and designing a modelling system
 
 The system was designed to support forward-looking commercial analysis, supply forecasting, and scenario modelling.
 
----
 
 ## 🏗 System Architecture
 
